@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+/* reset style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/* google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@600&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-weight: 400;
+  color: #3a3c4d;
+  background: #c5c5c58d !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  color: #101225;
+}
+
+/* colored text  */
+.coloredText {
+  color: #0b5c30;
+}

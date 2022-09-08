@@ -1,0 +1,5 @@
+.hero-section {
+  background: url(../../../images/hero-bg.jpg) no-repeat top center / cover;
+  padding: 0 0 120px 0;
+  color: #fff;
+}

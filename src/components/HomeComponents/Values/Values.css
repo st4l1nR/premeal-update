@@ -1,0 +1,43 @@
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 70%;
+  height: 1px;
+  background: #cdcedc;
+}
+
+@media only screen and (max-width: 1060px) {
+  .section-title::after {
+    top: 35px;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .section-title::after {
+    top: 20px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .section-title::after {
+    top: 20px;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-title::after {
+    top: 20px;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .section-title::after {
+    top: 20px;
+    width: 40%;
+  }
+}

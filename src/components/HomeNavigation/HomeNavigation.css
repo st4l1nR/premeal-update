@@ -1,0 +1,25 @@
+.nav-bar {
+  background: transparent !important;
+}
+
+.navbar a,
+.nav-link {
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+.nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.4s;
+  font-size: 20px !important;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper {
+  background: #101225 !important;
+  /* padding: 40px 0 0 0; */
+}

@@ -1,0 +1,130 @@
+.select-btn {
+  border: 1px solid #d2efdf !important;
+  color: #0b5c30 !important;
+  padding: 8px 24px !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+}
+.active-select-btn {
+  background: #d2efdf !important;
+  color: #0b5c30 !important;
+  border: 1px solid #0b5c30 !important;
+  padding: 8px 24px !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+}
+.select-btn-plate {
+  border: 1px solid #d2efdf !important;
+  color: #0b5c30 !important;
+  padding: 8px 10px !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+}
+.active-select-btn-plate {
+  background: #d2efdf !important;
+  color: #0b5c30 !important;
+  border: 1px solid #0b5c30 !important;
+  padding: 8px 10px !important;
+  text-transform: inherit !important;
+  font-weight: 600 !important;
+}
+
+/* physique calculator  */
+
+.order-title {
+  position: relative;
+}
+.order-title::after {
+  content: "";
+  position: absolute;
+  top: 34px;
+  right: -95%;
+  width: 90%;
+  height: 1px;
+  background: #cdcedc;
+}
+
+.calculator-input {
+  width: 60px;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px 5px;
+  outline: none;
+}
+.calculator-label {
+  font-style: italic;
+}
+
+.calculator-select {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* restriction  */
+.restriction-input {
+  width: 100%;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+/* delivery-form */
+.delivery-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #ffffff;
+  padding: 24px 40px 40px;
+  border-radius: 8px;
+}
+.delivery-form label {
+  color: #101225;
+  font-size: 24px;
+  font-weight: bold;
+}
+.delivery-form input,
+.delivery-form textarea,
+.delivery-form select {
+  width: 100%;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+/* payment  */
+.month-input {
+  width: 30%;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  margin-right: 10px;
+}
+.year-input {
+  width: 40%;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+.cvv-input {
+  width: 100%;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .order-title::after {
+    display: none;
+  }
+  .delivery-form label {
+    font-size: 14px;
+  }
+}
